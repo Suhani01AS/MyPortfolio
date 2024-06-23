@@ -1,0 +1,45 @@
+body{
+    background: #1f242d;
+}
+
+h1{
+    color:#fdc9c7;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: underline;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 0.7s;
+    padding: 20px;
+}
+
+li{
+    color: #f1e8e2;
+    font-size: 20px;
+    padding-left: 20px;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+}
+
+
+@keyframes slideBottom{
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes slideRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
