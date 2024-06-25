@@ -7,10 +7,33 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    height: 100%; 
+}
 body{
     background: #1f242d;
+    height: 100%;
 }
 
+.bg-image {
+    background-image: url("animee.jpg");
+  
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    padding: 10px;
+}
 .header{
     position:fixed;
     top:0;
@@ -25,7 +48,7 @@ body{
 }
 
 .home-content p{
-    color: #f1e8e2;
+    color: whitesmoke;
     font-size: 16px;
     animation: slideRight 1s ease forwards;
     animation-delay: 0.2s;
@@ -54,7 +77,7 @@ body{
 
 .navbar a:hover,
 .navbar a.active{
-    color: #f196a3;
+    color: #9e5f34;
 }
 
 .home{
@@ -72,7 +95,7 @@ body{
 }
 
 .home-content h1{
-    color:#fdc9c7;
+    color:#4a260c;
     font-size: 50px;
     font-weight: 700;
     margin: -3px 0;
@@ -81,7 +104,7 @@ body{
     animation-delay: 1s;
 }
 .home-content h3{
-    color: #fdc9c7;
+    color: #4a260c;
     font-size: 32px;
     font-weight: 700;
     opacity:0;
@@ -95,7 +118,7 @@ body{
 }
 
 .home-content h3 span{
-    color: #f3c5c3; 
+    color: #4a260c; 
     animation: slideTop 1s ease forwards;
     animation-delay: 0.7s;
 }
@@ -107,10 +130,10 @@ body{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #fdc9c7;
+    border: 2px solid #4a260c;
     border-radius: 50%;
     font-size: 20px;
-    color: #f196a3;
+    color: #4a260c;
     margin: 30px 15px 30px 0;
     transition: 0.5s ease;
     opacity: 0;
@@ -119,18 +142,18 @@ body{
 }
 
 .social-media a:hover{
-    background: #fdc9c7;
+    background: #4a260c;
     color: #1f241f;
-    box-shadow: 0 0 20px #fdc9c7;
+    box-shadow: 0 0 20px #4a260c;
 }
 .btn{
     display: inline-block;
     padding: 12px 28px;
-    background: #fdc9c7;
+    background: #4a260c;
     border-radius: 40px;
-    box-shadow: 0 0 10px #fdc9c7;
+    box-shadow: 0 0 10px #4a260c;
     font-size: 16px;
-    color:#1f242d;
+    color:whitesmoke;
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
