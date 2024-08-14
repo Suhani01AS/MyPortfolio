@@ -1,5 +1,5 @@
 body{
-    background: #44444c;
+    background: #FFFAF0;
 }
 h1{
     color:#520100;
@@ -12,7 +12,7 @@ h1{
 }
 
 p{
-    color: #f1e8e2;
+    color: #D2691E;
     font-size: 20px;
     padding-left: 20px;
     animation: slideRight 1s ease forwards;
